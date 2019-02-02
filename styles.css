@@ -1,0 +1,76 @@
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.jumbotron {
+  background-image: url("https://www.whatson.is/wp-content/uploads/2018/05/dsc00722-res-min.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation {
+  height: 10vh;
+  display: flex;
+}
+
+.navigation__button {
+  width: 200px;
+  background-color: #213ba5;
+  border: 1px solid white;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  transition: background-color 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation__button:hover {
+  background-color: #4660c9;
+}
+
+
+
+.navigation__button.login {
+  width: 300px;
+  height: 150px;
+  font-size: 30px;
+  border-radius: 15px;
+}
+
+.bigtext {
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 80px;
+}
+
+.footer {
+  color: white;
+  background-color: #1c1e21;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerfooter {
+  height: 200px;
+  width: 100%;
+  background-color: #3b3f44;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer__link {
+  color: white;
+  text-decoration: none;
+}
