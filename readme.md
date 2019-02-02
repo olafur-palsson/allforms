@@ -13,3 +13,15 @@ Requirements
 9. Guiding form
 10. Data sent to server
 11. Form control
+
+### Categories
+
+Education
+Drivers licence
+National registry
+Union refunds
+Benefits
+Marriage
+Death
+Immigration
+Tax tarrifs
