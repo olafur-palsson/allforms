@@ -41,7 +41,6 @@ html {
   width: 300px;
   height: 150px;
   font-size: 30px;
-  border-radius: 15px;
 }
 
 .bigtext {
@@ -73,4 +72,103 @@ html {
 .footer__link {
   color: white;
   text-decoration: none;
+}
+
+.small {
+  height: 50px;
+  width: 300px;
+}
+
+.small.buttons {
+  background-color: #e0db79;
+  color: black;
+}
+
+.small.buttons:hover {
+  background-color: #d3d3cb;
+}
+
+.licenses {
+  padding: 50px;
+  display: flex;
+  background-color: #cce0cc;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header {
+  height: 10vh;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #213ba5;
+  color: white;
+}
+
+.form {
+  padding: 50px;
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #eeeeee;
+}
+
+.form__container {
+  display: flex;
+  justify-content: center;
+}
+
+.form__radio {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.radio__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit {
+  margin-top: 50px;
+  height: 50px;
+  width: 300px;
+}
+
+.submitted {
+  height: 70vh;
+}
+
+.passport {
+  background-image: url('./pics/pass.jpg');
+  width: 187.5px;
+  height: 250px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.driverbutton {
+  background-color: #4292f4;
+  height: 40px;
+  width: 500px;
+  border-radius: 3px;
+  border-width: 0px;
+  transition: background-color 0.5s;
+}
+
+.driverbutton.submit {
+  height: 60px;
+  margin-top: 20px;
+}
+
+.driverbutton:hover {
+  background-color: #92c5ff;
+}
+
+.driverbutton:disabled {
+  background-color: #bbbbbb;
 }
