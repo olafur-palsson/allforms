@@ -47,6 +47,7 @@ html {
   font-weight: 700;
   text-decoration: none;
   font-size: 80px;
+  color: #213ba5;
 }
 
 .footer {
@@ -171,4 +172,18 @@ html {
 
 .driverbutton:disabled {
   background-color: #bbbbbb;
+}
+
+.thankyou {
+  height: 50px;
+  width: 200px;
+}
+
+.bigtextbackground {
+  height: 150px;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(200, 200, 200, .8)
 }
